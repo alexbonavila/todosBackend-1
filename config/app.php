@@ -186,6 +186,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
+       // Acacha\LaravelSocial\Providers\LaravelSocialServiceProvider::class
 
         //llum_providers
 
@@ -198,6 +199,7 @@ return [
         Spatie\Menu\Laravel\MenuServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Acacha\LaravelSocial\Providers\LaravelSocialServiceProvider::class,
         #llum_providers
 
     ],
